@@ -812,6 +812,13 @@
     <script src="js/gallery-init.js"></script>
     <script src="js/custom.js"></script>
     <!-- Load Scripts End -->
+      <script>
+    // Contador para mostrar días, horas, minutos y segundos restantes
+    $('#countdown-large').countdown({
+        until: $.countdown.UTCDate(+10, 2024, 7, 15, 16, 0, 0), // 15 de agosto de 2024 a las 16:00 UTC
+        format: 'DHMS'
+    });
+      </script>
 
   </body>
 
