@@ -19,7 +19,6 @@
 //  2. Swiper Slider
 //  3. YTPlayer Settings
 //  4. Vegas Settings
-//  5. KBW-Countdown Settings
 //  6. Mailchimp Notify Form
 //  7. Let's Talk Form
 //
@@ -162,15 +161,7 @@ $(function() {
   // Vegas Kenburns End
   // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // KBW-Countdown Start
-  // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2024, 7, 15, 16, 0, 0), format: 'D'});
-$('#countdown-large').countdown({until: $.countdown.UTCDate(+10, 2024, 7, 15, 16, 0, 0), format: 'DHMS'});
 
-  // --------------------------------------------- //
-  // KBW-Countdown End
-  // --------------------------------------------- //
 
   // --------------------------------------------- //
   // Mailchimp Notify Form Start
